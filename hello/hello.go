@@ -13,7 +13,7 @@ func main() {
 
 
 
-	message, err := greetings.Hello("")
+	message, err := greetings.Hello("Max")
 	if err != nil {
 		log.Fatal(err)
 	}
